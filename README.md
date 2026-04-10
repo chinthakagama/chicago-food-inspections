@@ -155,7 +155,7 @@ This project highlights:
 ________________________________________
 Dataset Source
 Chicago Food Inspections Dataset
-(https://www.kaggle.com/datasets/chicago/chicago-food-inspections.https://www.kaggle.com/datasets/chicago/chicago-food-inspections.)
+(https://www.kaggle.com/datasets/chicago/chicago-food-inspections)
 ________________________________________
 Author
 Chathura
