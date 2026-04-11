@@ -149,6 +149,15 @@ This project highlights:
 •	Hypothesis-driven analysis 
 •	Business-focused thinking 
 ________________________________________
+## Before Cleaning
+![Raw Data](assets/before)
+
+## After Cleaning
+![Cleaned Data](assets/after)
+
+## Example Insight
+![Chart](assets/chart)
+________________________________________
 Dataset Source
 Chicago Food Inspections Dataset
 (https://www.kaggle.com/datasets/chicago/chicago-food-inspections)
