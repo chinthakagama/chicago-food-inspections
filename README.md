@@ -1,12 +1,11 @@
-# chicago-food-inspections
-This project demonstrates an end-to-end workflow for cleaning and EDA of the Chicago Food Inspections dataset. The goal is to transform raw, inconsistent inspection data into a structured dataset suitable for analysis, and to explore the key factors associated with inspection failures.
-________________________________________
+Chicago Food Inspections — Data Cleaning & EDA
+Project Overview
+This project demonstrates how messy, real-world inspection data can be transformed into a reliable, analysis-ready dataset. Through systematic data cleaning, feature engineering, and exploratory analysis, the work identifies key risk drivers behind inspection failures — including facility type, violation patterns, and seasonal effects — and prepares the data for downstream reporting and decision-making.________________________________________
 Objectives
-•	Clean and standardize real-world, messy data 
-•	Engineer features that support meaningful analysis 
-•	Identify patterns linked to inspection outcomes 
-•	Prepare a dataset suitable for dashboards and decision-making 
-________________________________________
+•	Clean and standardize complex, real-world inspection data with inconsistencies, missing values, and unstructured text 
+•	Engineer actionable features from raw data, including violation counts, risk scoring, and time-based attributes 
+•	Identify and quantify key risk drivers behind inspection failures across facility types and time periods 
+•	Deliver an analysis-ready dataset designed for immediate use in dashboards and data-driven decision-making________________________________________
 Data Structure
 The dataset is organized into four main components:
 Category	Fields
@@ -110,16 +109,15 @@ ________________________________________
 Exploratory Data Analysis
 Hypothesis 1: Higher-risk facilities fail more often
 •	Test: Failure rate by risk level 
-•	Insight: A pattern exists, but may be influenced by inspection bias 
+•	Insight: Manufacturing category represent the highest compliance risk and may require stricter monitoring or targeted training due to operational constraints. Shared kitchens demonstrate consistently low failure rates, likely benefiting from standardized processes and infrastructure, making them a lower-risk category. Other facility types remain stable at approximately 25% failure rates, suggesting predictable but moderate compliance risk across these segments. 
 ________________________________________
 Hypothesis 2: Facility type influences failures
 •	Test: Failure rate by facility category 
-•	Insight: Restaurants show higher failure rates, likely due to operational complexity 
+•	Insight: Restaurants undergo the highest inspection volume yet maintain comparatively low failure rates, suggesting stable compliance despite operational complexity. This indicates that higher inspection frequency in this category does not necessarily correspond to higher risk, and may reflect regulatory focus rather than performance.
 ________________________________________
- 
 Hypothesis 3: Violations correlate with failure
 •	Test: Average violations by inspection result 
-•	Insight: Failed inspections have significantly higher violation counts 
+•	Insight: With approximately 57% of inspections resulting in passes or minor conditional violations, most establishments operate within acceptable compliance thresholds. This suggests that enforcement efforts may be more effective if focused on the smaller subset of high-risk, non-compliant facilities.
 •	Note: This relationship is partly structural, not purely causal 
 ________________________________________
 Hypothesis 4: Geography impacts outcomes
@@ -127,24 +125,22 @@ Hypothesis 4: Geography impacts outcomes
 ________________________________________
 Hypothesis 5: Seasonality exists
 •	Test: Monthly failure trends 
-•	Insight: Some variation observed; requires multi-year validation 
-________________________________________
+•	Insight: While failure rates remain steady at just above 20% for most of the year, a clear increase during July–September suggests seasonal pressure on operations. This period may require intensified inspections or targeted compliance measures to mitigate elevated risk.________________________________________
 Analytical Considerations
-•	Correlation does not imply causation 
-•	Inspection frequency may introduce bias 
-•	Facility composition varies across categories 
-•	Conditional results require careful handling 
-________________________________________
+•	Inspection outcomes may be biased by non-random inspection allocation, particularly toward higher-risk or previously non-compliant facilities 
+•	The observed correlation between violations and failures is not fully independent, as violations are part of the failure criteria 
+•	Seasonal increases in failure rates may reflect capacity and demand pressures, not necessarily a decline in compliance standards 
+•	Cross-category comparisons should be interpreted cautiously, as facility types differ significantly in operational complexity and constraints 
+•	Conditional outcomes sit between compliance and failure, and can distort binary performance metrics if not handled explicitly________________________________________
 Tools Used
 •	Excel Power Query 
 ________________________________________
 Key Outcomes
-•	Built a structured dataset from inconsistent raw data 
-•	Engineered features suitable for analysis 
-•	Identified key drivers of inspection outcomes 
-•	Created a foundation for BI reporting 
+•	Cleaned and standardized complex, real-world inspection data with missing values and inconsistent formats 
+•	Transformed unstructured violation text into measurable metrics (counts, severity proxies, keyword flags) 
+•	Revealed concentrated risk in specific facility types and seasonal periods 
+•	Delivered a dataset structured for immediate use in business intelligence and decision-making
 ________________________________________
- 
 Portfolio Value
 This project highlights:
 •	Practical data cleaning skills 
