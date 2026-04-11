@@ -156,7 +156,7 @@ ________________________________________
 ![Cleaned Data](assets/after)
 
 ## Example Insight
-![Chart](assets/chart)
+![Charts](assets/charts)
 ________________________________________
 Dataset Source
 Chicago Food Inspections Dataset
