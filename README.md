@@ -115,6 +115,7 @@ Derived Fields
 This ensures consistent aggregation and avoids duplication bias.
 ________________________________________
 Exploratory Data Analysis
+
 Hypothesis 1: Higher-risk facilities fail more often
 •	Test: Failure rate by risk level 
 •	Insight: Manufacturing category represent the highest compliance risk and may require stricter monitoring or targeted training due to operational constraints. Shared kitchens demonstrate consistently low failure rates, likely benefiting from standardized processes and infrastructure, making them a lower-risk category. Other facility types remain stable at approximately 25% failure rates, suggesting predictable but moderate compliance risk across these segments. 
