@@ -149,11 +149,9 @@ This project highlights:
 •	Hypothesis-driven analysis 
 •	Business-focused thinking 
 ________________________________________
-## Before Cleaning
-![Raw Data](assets/before)
-
-## After Cleaning
-![Cleaned Data](assets/after)
+| Before | After |
+|--------|-------|
+| ![](assets/before) | ![](assets/after) |
 
 ## Example Insight
 ![Chart](assets/chart)
