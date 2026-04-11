@@ -152,12 +152,12 @@ ________________________________________
 ## Data Cleaning Results
 
 ### 🔹 Raw Data (Before)
-![Raw Data](assets/before.png)
+![Raw Data](assets/before)
 
 ### 🔹 Cleaned Data (After)
-![Cleaned Data](assets/after.png)
+![Cleaned Data](assets/after)
 
-### Example Insight
+### Example Insight (Charts)
 ![Chart](assets/chart)
 ________________________________________
 Dataset Source
