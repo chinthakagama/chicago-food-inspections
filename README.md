@@ -1,18 +1,21 @@
 Chicago Food Inspections — Data Cleaning & EDA
+________________________________________ 
 Project Overview
-This project demonstrates how messy, real-world inspection data can be transformed into a reliable, analysis-ready dataset. Through systematic data cleaning, feature engineering, and exploratory analysis, the work identifies key risk drivers behind inspection failures — including facility type, violation patterns, and seasonal effects — and prepares the data for downstream reporting and decision-making.________________________________________
+This project demonstrates how messy, real-world inspection data can be transformed into a reliable, analysis-ready dataset. Through systematic data cleaning, feature engineering, and exploratory analysis, the work identifies key risk drivers behind inspection failures — including facility type, violation patterns, and seasonal effects — and prepares the data for downstream reporting and decision-making
+________________________________________
 Objectives
 •	Clean and standardize complex, real-world inspection data with inconsistencies, missing values, and unstructured text 
 •	Engineer actionable features from raw data, including violation counts, risk scoring, and time-based attributes 
 •	Identify and quantify key risk drivers behind inspection failures across facility types and time periods 
-•	Deliver an analysis-ready dataset designed for immediate use in dashboards and data-driven decision-making________________________________________
+•	Deliver an analysis-ready dataset designed for immediate use in dashboards and data-driven decision-making
+________________________________________
 Data Structure
 The dataset is organized into four main components:
-Category	Fields
-Identifiers	Inspection ID, License
-Business Info	Facility Type, Risk
-Outcomes	Results, Violations
-Time & Location	Inspection Date, ZIP Code, Coordinates
+Category	           Fields
+Identifiers	    - Inspection ID, License
+Business Info	  - Facility Type, Risk
+Outcomes	      - Results, Violations
+Time & Location	- Inspection Date, ZIP Code, Coordinates
 ________________________________________
 Data Audit
 Initial profiling was conducted using Power Query tools:
@@ -31,9 +34,11 @@ Data Cleaning Pipeline
 •	Dates → converted to date format 
 •	ZIP codes → stored as text (to preserve leading zeros) 
 •	Coordinates → converted to decimal 
+
 2. Remove Redundant Fields
 •	Dropped duplicate geographic fields 
 •	Removed constant columns (e.g., City, State) 
+
 3. Outcome Modelling
 Inspection outcomes were decomposed into separate dimensions:
 •	Inspection Result: Pass, Conditional, Fail 
@@ -43,11 +48,13 @@ o	Not Ready
 o	No Entry 
 o	Out of Business 
 This avoids flattening outcomes and preserves analytical clarity.
+
 4. Failure Flag
 A binary indicator was introduced:
 •	Is_Failed = 1 → Fail 
 •	Is_Failed = 0 → Pass / Conditional 
 •	NULL → Not Completed 
+
 This enables accurate failure rate calculations and separates operational issues from business closures.
 ________________________________________
 Feature Engineering
