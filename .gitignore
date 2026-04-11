@@ -1,0 +1,16 @@
+# Data files
+*.csv
+*.xlsx
+*.xls
+
+# Excel temp files
+~$*.xlsx
+
+# Output folders
+output/
+processed/
+cleaned/
+
+# System files
+.DS_Store
+Thumbs.db
