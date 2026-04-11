@@ -1,7 +1,8 @@
 Chicago Food Inspections — Data Cleaning & EDA
 ________________________________________ 
 Project Overview
-This project demonstrates how messy, real-world inspection data can be transformed into a reliable, analysis-ready dataset. Through systematic data cleaning, feature engineering, and exploratory analysis, the work identifies key risk drivers behind inspection failures — including facility type, violation patterns, and seasonal effects — and prepares the data for downstream reporting and decision-making
+This project demonstrates how messy, real-world inspection data can be transformed into a reliable, analysis-ready dataset. Through systematic data cleaning, feature engineering, and exploratory analysis, 
+the work identifies key risk drivers behind inspection failures — including facility type, violation patterns, and seasonal effects — and prepares the data for downstream reporting and decision-making
 ________________________________________
 Objectives
 •	Clean and standardize complex, real-world inspection data with inconsistencies, missing values, and unstructured text 
@@ -132,13 +133,15 @@ Hypothesis 4: Geography impacts outcomes
 ________________________________________
 Hypothesis 5: Seasonality exists
 •	Test: Monthly failure trends 
-•	Insight: While failure rates remain steady at just above 20% for most of the year, a clear increase during July–September suggests seasonal pressure on operations. This period may require intensified inspections or targeted compliance measures to mitigate elevated risk.________________________________________
+•	Insight: While failure rates remain steady at just above 20% for most of the year, a clear increase during July–September suggests seasonal pressure on operations. This period may require intensified inspections or targeted compliance measures to mitigate elevated risk.
+________________________________________
 Analytical Considerations
 •	Inspection outcomes may be biased by non-random inspection allocation, particularly toward higher-risk or previously non-compliant facilities 
 •	The observed correlation between violations and failures is not fully independent, as violations are part of the failure criteria 
 •	Seasonal increases in failure rates may reflect capacity and demand pressures, not necessarily a decline in compliance standards 
 •	Cross-category comparisons should be interpreted cautiously, as facility types differ significantly in operational complexity and constraints 
-•	Conditional outcomes sit between compliance and failure, and can distort binary performance metrics if not handled explicitly________________________________________
+•	Conditional outcomes sit between compliance and failure, and can distort binary performance metrics if not handled explicitly
+________________________________________
 Tools Used
 •	Excel Power Query 
 ________________________________________
