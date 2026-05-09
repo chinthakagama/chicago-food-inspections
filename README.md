@@ -201,7 +201,8 @@ Data Analyst | Power BI | Excel Power Query | EDA | Freelancer
 ________________________________________
 Next Steps
 • Expand into a full case study
-
+________________________________________
+Dashboard interactive views
 <img width="1953" height="1100" alt="Screenshot (270)" src="https://github.com/user-attachments/assets/722095d9-4d0e-431a-9caa-4bbc1567910c" />
 <img width="1929" height="1225" alt="Screenshot (269)" src="https://github.com/user-attachments/assets/ab0aa325-6b2a-42d4-bf42-b86b85b8cc3e" />
 <img width="1946" height="1098" alt="Screenshot (268)" src="https://github.com/user-attachments/assets/07e4d99b-bb16-4334-ad7d-a5932936d8f6" />
