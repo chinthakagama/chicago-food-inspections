@@ -179,6 +179,9 @@ This project highlights:
 • Skills in generating interactive Power BI daskboard
 •	Business-focused thinking 
 ________________________________________
+Business Value
+This dashboard enables operational monitoring, compliance tracking, and risk assessment for food inspection activities using interactive business intelligence reporting.
+________________________________________
 ## Before Cleaning
 ![Raw Data](assets/before)
 
@@ -194,7 +197,14 @@ Chicago Food Inspections Dataset
 ________________________________________
 Author
 Chathura
-Data Analyst | Freelancer
+Data Analyst | Power BI | Excel Power Query | EDA | Freelancer
 ________________________________________
 Next Steps
 • Expand into a full case study
+
+<img width="1953" height="1100" alt="Screenshot (270)" src="https://github.com/user-attachments/assets/722095d9-4d0e-431a-9caa-4bbc1567910c" />
+<img width="1929" height="1225" alt="Screenshot (269)" src="https://github.com/user-attachments/assets/ab0aa325-6b2a-42d4-bf42-b86b85b8cc3e" />
+<img width="1946" height="1098" alt="Screenshot (268)" src="https://github.com/user-attachments/assets/07e4d99b-bb16-4334-ad7d-a5932936d8f6" />
+<img width="1964" height="1103" alt="CFIdb1" src="https://github.com/user-attachments/assets/b091460e-0b7a-474a-a25f-130169141b0f" />
+
+
