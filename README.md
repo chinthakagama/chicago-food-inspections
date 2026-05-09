@@ -1,8 +1,9 @@
-Chicago Food Inspections — Data Cleaning & EDA
+Chicago Food Inspections Risk Analysis Dashboard
 ________________________________________ 
 Project Overview
-This project demonstrates how messy, real-world inspection data can be transformed into a reliable, analysis-ready dataset. Through systematic data cleaning, feature engineering, and exploratory analysis, 
-the work identifies key risk drivers behind inspection failures — including facility type, violation patterns, and seasonal effects — and prepares the data for downstream reporting and decision-making
+This project analyzes the Chicago Food Inspections dataset using Excel Power Query and Power BI to identify operational risks, inspection failures, violation trends, and geographic risk patterns.
+
+The project demonstrates end-to-end data cleaning, exploratory data analysis (EDA), feature engineering, and dashboard development workflows.
 ________________________________________
 Objectives
 •	Clean and standardize complex, real-world inspection data with inconsistencies, missing values, and unstructured text 
@@ -42,7 +43,7 @@ Data Cleaning Pipeline
 
 3. Outcome Modelling
 Inspection outcomes were decomposed into separate dimensions:
-•	Inspection Result: Pass, Conditional, Fail 
+•	Inspection Result: Pass, Pass With Condition, Fail 
 •	Inspection Status: Completed, Not Completed 
 •	Exception Type: 
 o	Not Ready 
@@ -130,21 +131,38 @@ Hypothesis 3: Violations correlate with failure
 •	Note: This relationship is partly structural, not purely causal 
 ________________________________________
 Hypothesis 4: Geography impacts outcomes
-•	Not explored due to limited location data 
+•	Geographic hotspot identification
 ________________________________________
 Hypothesis 5: Seasonality exists
 •	Test: Monthly failure trends 
 •	Insight: While failure rates remain steady at just above 20% for most of the year, a clear increase during July–September suggests seasonal pressure on operations. This period may require intensified inspections or targeted compliance measures to mitigate elevated risk.
 ________________________________________
-Analytical Considerations
-•	Inspection outcomes may be biased by non-random inspection allocation, particularly toward higher-risk or previously non-compliant facilities 
-•	The observed correlation between violations and failures is not fully independent, as violations are part of the failure criteria 
-•	Seasonal increases in failure rates may reflect capacity and demand pressures, not necessarily a decline in compliance standards 
-•	Cross-category comparisons should be interpreted cautiously, as facility types differ significantly in operational complexity and constraints 
-•	Conditional outcomes sit between compliance and failure, and can distort binary performance metrics if not handled explicitly
+Dashboard Features
+• KPI monitoring
+• Failure trend analysis
+• Facility risk segmentation
+• Geographic inspection mapping
+• Interactive slicers and filters
 ________________________________________
-Tools Used
-•	Excel Power Query 
+KPIs
+• Total Inspections
+• Completed Inspections
+• Fail Count
+• Fail Rate
+• Average Violations
+________________________________________
+Key Insights
+• High-risk facilities produced the highest failure rates
+• Restaurants showed the largest concentration of violations
+• Conditional passes represented a significant portion of inspections
+• Geographic clustering revealed localized operational risks
+________________________________________
+Tools & Technologies Used
+• Excel Power Query
+• Power BI
+• DAX
+• Data Modeling
+• Exploratory Data Analysis (EDA)
 ________________________________________
 Key Outcomes
 •	Cleaned and standardized complex, real-world inspection data with missing values and inconsistent formats 
@@ -157,7 +175,8 @@ This project highlights:
 •	Practical data cleaning skills 
 •	Handling of unstructured text data 
 •	Feature engineering techniques 
-•	Hypothesis-driven analysis 
+•	Hypothesis-driven analysis
+• Skills in generating interactive Power BI daskboard
 •	Business-focused thinking 
 ________________________________________
 ## Before Cleaning
@@ -178,7 +197,4 @@ Chathura
 Data Analyst | Freelancer
 ________________________________________
 Next Steps
-•	Develop an interactive Power BI dashboard 
-•	Incorporate geographic analysis 
-•	Apply statistical hypothesis testing 
-•	Expand into a full case study
+• Expand into a full case study
